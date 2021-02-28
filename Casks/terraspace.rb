@@ -2,11 +2,11 @@
 cask 'terraspace' do
   name 'terraspace'
   homepage 'https://terraspace.cloud'
-  version '0.5.11'
+  version '0.5.12'
 
-  pkg "terraspace-0.5.11-20210227130507.pkg"
-  url "https://tap.boltops.com/terraspace/0.5.11/terraspace-0.5.11-20210227130507.dmg"
-  sha256 'bc8fdd7d5c84f7ccb52a1a7123c0ea866a114b8398dedc1944103815760399eb'
+  pkg "terraspace-0.5.12-20210228130507.pkg"
+  url "https://tap.boltops.com/terraspace/0.5.12/terraspace-0.5.12-20210228130507.dmg"
+  sha256 '464d83406aa532988af472a58145c764c8f29b92cef1292098265fb2b2d89170'
 
   uninstall pkgutil: 'test.boltops.pkg.terraspace'
 end
