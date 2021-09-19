@@ -4,9 +4,9 @@ cask 'terraspace' do
   homepage 'https://terraspace.cloud'
   version '0.6.13'
 
-  pkg "terraspace-0.6.13-20210918121019.pkg"
-  url "https://tap.boltops.com/terraspace/0.6.13/terraspace-0.6.13-20210918121019.dmg"
-  sha256 '42fcc5efb62356b8a01038e2a9452ca266d1a3b08e75ddbf7bcdf2c4a4c41cca'
+  pkg "terraspace-0.6.13-20210919121140.pkg"
+  url "https://tap.boltops.com/terraspace/0.6.13/terraspace-0.6.13-20210919121140.dmg"
+  sha256 'ab4a0a721a6a1df6e1c1b0fe09ed1bda606d7ff287409ef98b1dfdf7ab863b59'
 
   uninstall pkgutil: 'test.boltops.pkg.terraspace'
 end
