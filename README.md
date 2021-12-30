@@ -8,7 +8,7 @@ A Homebrew tap for various BoltOps projects.
 
 Quickest way to use:
 
-    brew cask install boltops-tools/software/terraspace
+    brew install boltops-tools/software/terraspace
 
 ## Install Tap
 
@@ -18,4 +18,4 @@ Tap this repository:
 
 Install the packages it contains like any other Homebrew package:
 
-    brew cask install terraspace
+    brew install terraspace
