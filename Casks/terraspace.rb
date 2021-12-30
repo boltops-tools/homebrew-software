@@ -6,7 +6,7 @@ cask 'terraspace' do
 
   pkg "terraspace-0.6.23-1.x86_64.pkg"
   url "https://tap.boltops.com/terraspace/0.6.23/terraspace-0.6.23-1.x86_64.dmg"
-  sha256 '0b3e74f16b29f2bc0cb55e6dd4c7e44e9723b8b0f16b3e028b17078a72da7155'
+  sha256 '510f7a7e56a1c914a5b74b8c093760b1b9d5be657ef06578fe46b18377d24682'
 
   uninstall pkgutil: 'test.boltops.pkg.terraspace'
 end
