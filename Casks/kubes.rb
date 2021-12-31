@@ -6,7 +6,7 @@ cask 'kubes' do
 
   pkg "kubes-0.7.10-1.x86_64.pkg"
   url "https://tap.boltops.com/kubes/0.7.10/kubes-0.7.10-1.x86_64.dmg"
-  sha256 '59c2ba09f315284d41e34e96ae74e924a35cf7a2948a76af6fa2e9cf2c309cf6'
+  sha256 '8e502add3de6091971faa69556cf671a9e903c2c670e35214ec129a55c8bda88'
 
   uninstall pkgutil: 'test.boltops.pkg.kubes'
 end
