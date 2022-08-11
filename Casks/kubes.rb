@@ -2,11 +2,11 @@
 cask 'kubes' do
   name 'kubes'
   homepage 'https://kubes.guru'
-  version '0.8.7'
+  version '0.8.8'
 
-  pkg "kubes-0.8.7-1.x86_64.pkg"
-  url "https://tap.boltops.com/packages/kubes/kubes-0.8.7.dmg"
-  sha256 '536af9b4c3652d08cf8fc5aa2b84a6764877ea950bc0375bed5397ba5fe5054e'
+  pkg "kubes-0.8.8-1.x86_64.pkg"
+  url "https://tap.boltops.com/packages/kubes/kubes-0.8.8.dmg"
+  sha256 '0270e697ecf145564f2891145088871af089fa9902e90e334713bf5683833413'
 
   uninstall pkgutil: 'test.boltops.pkg.kubes'
 end
